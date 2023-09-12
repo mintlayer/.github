@@ -8,10 +8,10 @@ Welcome to the central hub for [Mintlayer](https://www.mintlayer.org) projects. 
 ### [Mintlayer Core](https://git.mintlayer.org/mintlayer/mintlayer-core)
 This is the heart of our operation, containing the actual node for Mintlayer. Dive in to understand the backbone of our system.
 
-### [Mojito Mobile Wallet (iOS & Android)](https://git.mintlayer.org/mintlayer/mojito_mobile_wallet)
+### [Mojito Mobile Wallet (iOS & Android)](https://github.com/mintlayer/mojito_mobile_wallet)
 Discover Mojito, our mobile wallet solution for both iOS and Android platforms. Stay connected and manage your assets on the go.
 
-### [Mojito Browser Extension](https://git.mintlayer.org/mintlayer/mojito-browser-extension)
+### [Mojito Browser Extension](https://github.com/mintlayer/mojito-browser-extension)
 Enhance your browsing experience! Our Mojito extension is compatible with Chrome, Firefox, and Edge, integrating seamlessly into your daily internet navigation.
 
 ## Contributions
