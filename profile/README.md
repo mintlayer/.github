@@ -5,7 +5,7 @@ Welcome to the central hub for [Mintlayer](https://www.mintlayer.org) projects. 
 
 ## Repositories
 
-### [Mintlayer Core](https://git.mintlayer.org/mintlayer/mintlayer-core)
+### [Mintlayer Core](https://github.com/mintlayer/mintlayer-core)
 This is the heart of our operation, containing the actual node for Mintlayer. Dive in to understand the backbone of our system.
 
 ### [Mojito Mobile Wallet (iOS & Android)](https://github.com/mintlayer/mojito_mobile_wallet)
