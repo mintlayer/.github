@@ -14,9 +14,20 @@ Discover Mojito, our mobile wallet solution for both iOS and Android platforms. 
 ### [Mojito Browser Extension](https://github.com/mintlayer/mojito-browser-extension)
 Enhance your browsing experience! Our Mojito extension is compatible with Chrome, Firefox, and Edge, integrating seamlessly into your daily internet navigation.
 
+## Learn
+- [Learn More About Mintlayer Node](https://github.com/mintlayer/mintlayer-core/wiki#learn-more-about-mintlayer-node)
+- [Install a Mintlayer Node](https://github.com/mintlayer/mintlayer-core/wiki#install-a-mintlayer-node)
+- [Use the Mintlayer GUI](https://github.com/mintlayer/mintlayer-core/wiki#use-the-mintlayer-gui)
+- [Familiarize with the Mintlayer Command Line Wallet](https://github.com/mintlayer/mintlayer-core/wiki#familiarize-with-the-mintlayer-command-line-wallet-wallet-cli)
+- [Learn How to Stake Your Testnet Tokens](https://github.com/mintlayer/mintlayer-core/wiki#learn-how-to-stake-your-testnet-tokens)
+
 ## Contributions
 
 We welcome and appreciate contributions! Please refer to individual repositories for guidelines and details on the contribution process.
+
+## Report a Bug
+
+Encountered an issue? Report non-security related bugs by opening [issues](https://github.com/mintlayer/mintlayer-core/issues/new) in the core Mintlayer repository. Provide as much detail as possible to help us understand and resolve the issue promptly. For security-related issues, refer to the [security section](https://github.com/mintlayer/mintlayer-core/blob/master/SECURITY.md).
 
 ## License
 
