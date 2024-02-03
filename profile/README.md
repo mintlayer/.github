@@ -1,6 +1,6 @@
 # Mintlayer Projects
 
-Welcome to the central hub for [Mintlayer](https://www.mintlayer.org) projects. Here, you'll find links to our primary repositories hosted on our GitLab instance.
+Welcome to the central hub for [Mintlayer](https://www.mintlayer.org) projects. Here, you'll find links to our primary repositories hosted on our Guthub instance.
 
 
 ## Repositories
