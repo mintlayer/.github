@@ -14,6 +14,12 @@ Discover Mojito, our mobile wallet solution for both iOS and Android platforms. 
 ### [Mojito Browser Extension](https://github.com/mintlayer/mojito-browser-extension)
 Enhance your browsing experience! Our Mojito extension is compatible with Chrome, Firefox, and Edge, integrating seamlessly into your daily internet navigation.
 
+### [Block Explorer](https://github.com/mintlayer/explorer)
+Block Explorer currently running on [https://explorer.mintlayer.org](https://explorer.mintlayer.org).
+
+### [ZK Thunder Network](https://github.com/mintlayer/zk)
+ZK Rollup implementation built on top of Mintlayer by [Salus](https://salusec.io/).
+
 ## Learn
 - [Learn More About Mintlayer Node](https://github.com/mintlayer/mintlayer-core/wiki#learn-more-about-mintlayer-node)
 - [Install a Mintlayer Node](https://github.com/mintlayer/mintlayer-core/wiki#install-a-mintlayer-node)
