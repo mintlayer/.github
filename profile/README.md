@@ -17,7 +17,10 @@ Enhance your browsing experience! Our Mojito extension is compatible with Chrome
 ### [Block Explorer](https://github.com/mintlayer/explorer)
 Block Explorer currently running on [https://explorer.mintlayer.org](https://explorer.mintlayer.org).
 
-### [ZK Thunder Network](https://github.com/mintlayer/zk-thunder)
+### [Mintlayer Web-GUI](https://github.com/mintlayer/web-gui)
+Full Node on Docker with a GUI, install from [https://get.mintlayer.org](https://get.mintlayer.org).
+
+### [ZK Thunder Network](https://github.com/mintlayer/zk-thunder) (Testnet)
 ZK Rollup implementation built on top of Mintlayer
 
 ## Learn
