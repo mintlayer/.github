@@ -17,6 +17,9 @@ Enhance your browsing experience! Our Mojito extension is compatible with Chrome
 ### [Block Explorer](https://github.com/mintlayer/explorer)
 Block Explorer currently running on [https://explorer.mintlayer.org](https://explorer.mintlayer.org).
 
+### SDK for [Go](https://github.com/mintlayer/go-sdk), [JS](https://github.com/mintlayer/mintlayer-connect-sdk), [Rust](https://github.com/mintlayer/rust-sdk), [Python](https://github.com/mintlayer/python-sdk)
+Development Kit for Go, Javascript, Rust and Python.
+
 ### [Mintlayer Web-GUI](https://github.com/mintlayer/web-gui)
 Full Node on Docker with a GUI, install from [https://get.mintlayer.org](https://get.mintlayer.org).
 
