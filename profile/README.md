@@ -1,37 +1,58 @@
 # Mintlayer Projects
 
-Welcome to the central hub for [Mintlayer](https://www.mintlayer.org) projects. Here, you'll find links to our primary repositories hosted on our Guthub instance.
+Welcome to the central hub for [Mintlayer](https://www.mintlayer.org) projects. Here you'll find links to our primary repositories hosted on our GitHub instance.
 
+## Documentation
+
+Comprehensive documentation for users, operators, and developers lives at **[docs.mintlayer.org](https://docs.mintlayer.org)**:
+
+- [Getting Started](https://docs.mintlayer.org/docs/getting-started): how a Mintlayer node and wallet fit together, and your first commands
+- [Install a Mintlayer node](https://docs.mintlayer.org/docs/getting-started/install): native deb/rpm packages, binaries, Docker, one-command web GUI installer, or from source
+- [Use the Mintlayer GUI](https://docs.mintlayer.org/docs/getting-started/install/install-web-gui): a full node with wallet and web interface in Docker
+- [Wallet CLI reference](https://docs.mintlayer.org/docs/wallet/cli/commands): every `wallet-cli` command, each with its own page
+- [Learn how to stake](https://docs.mintlayer.org/docs/guides/cli/managing-a-staking-pool): run a staking pool or delegate, on testnet and mainnet
+- [API reference](https://docs.mintlayer.org/docs/api): the indexer REST API behind explorers and wallets
+- [SDK guides and reference](https://docs.mintlayer.org/docs/build/sdks/go): Go, JavaScript, Rust, and Python
+- [Whitepaper](https://docs.mintlayer.org/docs/whitepaper/blockchain-architecture): the architecture, tokenization standard, and DEX design
+
+For AI agents and LLM-based tooling, a machine-readable index of the whole site is available at [docs.mintlayer.org/llms.txt](https://docs.mintlayer.org/llms.txt).
 
 ## Repositories
 
 ### [Mintlayer Core](https://github.com/mintlayer/mintlayer-core)
-This is the heart of our operation, containing the actual node for Mintlayer. Dive in to understand the backbone of our system.
+
+The heart of our operation: the node daemon, wallet daemons, blockchain scanner, and DNS seed server. Dive in to understand the backbone of the system.
 
 ### [Mojito Mobile Wallet (iOS & Android)](https://github.com/mintlayer/mojito_mobile_wallet)
-Discover Mojito, our mobile wallet solution for both iOS and Android platforms. Stay connected and manage your assets on the go.
+
+Discover Mojito, our non-custodial mobile wallet for both iOS and Android. Stay connected and manage your assets on the go.
 
 ### [Mojito Browser Extension](https://github.com/mintlayer/mojito-browser-extension)
-Enhance your browsing experience! Our Mojito extension is compatible with Chrome, Firefox, and Edge, integrating seamlessly into your daily internet navigation.
+
+The Mojito wallet as a browser extension, compatible with Chrome, Firefox, and Edge. It injects a `window.mojito` provider so dApps can request accounts and signatures; see the [dApp integration guide](https://docs.mintlayer.org/docs/build/mojito-inject).
 
 ### [Block Explorer](https://github.com/mintlayer/explorer)
-Block Explorer currently running on [https://explorer.mintlayer.org](https://explorer.mintlayer.org).
 
-### SDK for [Go](https://github.com/mintlayer/go-sdk), [JS](https://github.com/mintlayer/mintlayer-connect-sdk), [Rust](https://github.com/mintlayer/rust-sdk), [Python](https://github.com/mintlayer/python-sdk)
-Development Kit for Go, Javascript, Rust and Python.
+The block explorer running at [explorer.mintlayer.org](https://explorer.mintlayer.org).
+
+### SDKs
+
+Official SDKs for building on Mintlayer, each with guides and a full API reference in the documentation:
+
+| Language | Repository | Documentation |
+| -------- | ---------- | ------------- |
+| Go | [go-sdk](https://github.com/mintlayer/go-sdk) | [docs](https://docs.mintlayer.org/docs/build/sdks/go) |
+| JavaScript | [mintlayer-connect-sdk](https://github.com/mintlayer/mintlayer-connect-sdk) | [docs](https://docs.mintlayer.org/docs/build/sdks/javascript) |
+| Rust | [rust-sdk](https://github.com/mintlayer/rust-sdk) | [docs](https://docs.mintlayer.org/docs/build/sdks/rust) |
+| Python | [python-sdk](https://github.com/mintlayer/python-sdk) | [docs](https://docs.mintlayer.org/docs/build/sdks/python) |
 
 ### [Mintlayer Web-GUI](https://github.com/mintlayer/web-gui)
-Full Node on Docker with a GUI, install from [https://get.mintlayer.org](https://get.mintlayer.org).
+
+A full node with a graphical interface, deployed in Docker. Install it with one command from [get.mintlayer.org](https://get.mintlayer.org).
 
 ### [ZK Thunder Network](https://github.com/mintlayer/zk-thunder) (Testnet)
-ZK Rollup implementation built on top of Mintlayer
 
-## Learn
-- [Learn More About Mintlayer Node](https://github.com/mintlayer/mintlayer-core/wiki#learn-more-about-mintlayer-node)
-- [Install a Mintlayer Node](https://github.com/mintlayer/mintlayer-core/wiki#install-a-mintlayer-node)
-- [Use the Mintlayer GUI](https://github.com/mintlayer/mintlayer-core/wiki#use-the-mintlayer-gui)
-- [Familiarize with the Mintlayer Command Line Wallet](https://github.com/mintlayer/mintlayer-core/wiki#familiarize-with-the-mintlayer-command-line-wallet-wallet-cli)
-- [Learn How to Stake Your Testnet Tokens](https://github.com/mintlayer/mintlayer-core/wiki#learn-how-to-stake-your-testnet-tokens)
+A ZK rollup implementation built on top of Mintlayer.
 
 ## Contributions
 
@@ -39,7 +60,7 @@ We welcome and appreciate contributions! Please refer to individual repositories
 
 ## Report a Bug
 
-Encountered an issue? Report non-security related bugs by opening [issues](https://github.com/mintlayer/mintlayer-core/issues/new) in the core Mintlayer repository. Provide as much detail as possible to help us understand and resolve the issue promptly. For security-related issues, refer to the [security section](https://github.com/mintlayer/mintlayer-core/blob/master/SECURITY.md).
+Encountered an issue? Report non-security related bugs by [opening an issue](https://github.com/mintlayer/mintlayer-core/issues/new) in the core Mintlayer repository. Provide as much detail as possible to help us understand and resolve the issue promptly. For security-related issues, refer to the [security policy](https://github.com/mintlayer/mintlayer-core/blob/master/SECURITY.md).
 
 ## License
 
