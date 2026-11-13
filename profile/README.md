@@ -12,7 +12,7 @@ Comprehensive documentation for users, operators, and developers lives at **[doc
 - [Wallet CLI reference](https://docs.mintlayer.org/docs/wallet/cli/commands): every `wallet-cli` command, each with its own page
 - [Learn how to stake](https://docs.mintlayer.org/docs/guides/cli/managing-a-staking-pool): run a staking pool or delegate, on testnet and mainnet
 - [API reference](https://docs.mintlayer.org/docs/api): the indexer REST API behind explorers and wallets
-- [SDK guides and reference](https://docs.mintlayer.org/docs/build/sdks/go): Go, JavaScript, Rust, and Python
+- [SDK guides and reference](https://docs.mintlayer.org/docs/build/sdks/go): Go, JavaScript, Rust, Python, and Kotlin & Swift for mobile
 - [Whitepaper](https://docs.mintlayer.org/docs/whitepaper/blockchain-architecture): the architecture, tokenization standard, and DEX design
 
 For AI agents and LLM-based tooling, a machine-readable index of the whole site is available at [docs.mintlayer.org/llms.txt](https://docs.mintlayer.org/llms.txt).
@@ -45,6 +45,9 @@ Official SDKs for building on Mintlayer, each with guides and a full API referen
 | JavaScript | [mintlayer-connect-sdk](https://github.com/mintlayer/mintlayer-connect-sdk) | [docs](https://docs.mintlayer.org/docs/build/sdks/javascript) |
 | Rust | [rust-sdk](https://github.com/mintlayer/rust-sdk) | [docs](https://docs.mintlayer.org/docs/build/sdks/rust) |
 | Python | [python-sdk](https://github.com/mintlayer/python-sdk) | [docs](https://docs.mintlayer.org/docs/build/sdks/python) |
+| Kotlin & Swift (mobile) | [rust-sdk](https://github.com/mintlayer/rust-sdk) | [docs](https://docs.mintlayer.org/docs/build/sdks/mobile-bindings) |
+
+The Kotlin & Swift bindings bring the wallet primitives (key derivation, addresses, transaction encoding and signing) to native Android and iOS apps, including React Native/Expo where WebAssembly is unavailable. Prebuilt artifacts (AAR and XCFramework) are attached to the [`wallet-bindings-vX.Y.Z`](https://github.com/mintlayer/rust-sdk/releases) releases — no Rust toolchain required.
 
 ### [Mintlayer Web-GUI](https://github.com/mintlayer/web-gui)
 
